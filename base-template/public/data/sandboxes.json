@@ -1,0 +1,6 @@
+[
+    { "id": "SBX-001", "name": "Q4-AI-Features-UAT", "tenantId": "T001", "tenantName": "Bangalore Institute of Advanced Technology", "status": "Active", "created": "2023-07-20", "expires": "2023-10-20", "cloneType": "Anonymized Clone of Production", "url": "biat-uat.controlplane.com", "usage": { "cpu": 45, "storage": 120, "storageCapacity": 200 } },
+    { "id": "SBX-002", "name": "Faculty-Training-Sept2023", "tenantId": "T004", "tenantName": "Hubli-Dharwad Technical University", "status": "Active", "created": "2023-08-15", "expires": "2023-09-15", "cloneType": "Clean Slate Environment", "url": "hdtu-training.controlplane.com", "usage": { "cpu": 20, "storage": 15, "storageCapacity": 50 } },
+    { "id": "SBX-003", "name": "Prod-Issue-Replication", "tenantId": "T002", "tenantName": "Mysore Royal College of Engineering", "status": "Provisioning", "created": "2023-08-28", "expires": "2023-09-04", "cloneType": "Full Clone of Production", "url": "mrce-debug.controlplane.com", "usage": { "cpu": 0, "storage": 0, "storageCapacity": 100 } },
+    { "id": "SBX-004", "name": "Old-Dev-Env", "tenantId": "T008", "tenantName": "Gulbarga Tech University", "status": "Expired", "created": "2023-05-10", "expires": "2023-08-10", "cloneType": "Anonymized Clone of Production", "url": "gtu-dev.controlplane.com", "usage": { "cpu": 0, "storage": 80, "storageCapacity": 80 } }
+]

@@ -1,0 +1,4 @@
+[
+  { "id": "T001", "name": "Bangalore Institute of Advanced Technology", "institutionType": "College", "plan": "Enterprise", "status": "Active", "created": "2023-01-15", "usage": { "cpu": 75, "storage": 850, "users": 4500 } },
+  { "id": "T002", "name": "Mysore Royal College of Engineering", "institutionType": "College", "plan": "Pro", "status": "Active", "created": "2023-02-20", "usage": { "cpu": 60, "storage": 320, "users": 2100 } }
+]

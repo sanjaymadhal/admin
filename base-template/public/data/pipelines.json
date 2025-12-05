@@ -1,0 +1,22 @@
+[
+    {
+        "id": "pl_1", "commitSha": "a1b2c3d", "commitMessage": "FEAT: Add user profile caching", "author": "Devika Sharma", "branch": "feature/profile-cache", "status": "Success", "totalDuration": "5m 45s", "triggeredAt": "2023-10-25T10:00:00Z",
+        "stages": [
+            { "name": "Code Commit", "status": "Success", "details": "a1b2c3d by Devika Sharma" },
+            { "name": "Image Build", "status": "Success", "duration": "1m 30s", "details": "Image tag: v1.2.3-a1b2c3d" },
+            { "name": "Automated Tests", "status": "Success", "duration": "3m 15s", "details": "1,258/1,258 tests passed" },
+            { "name": "Deploy to Dev", "status": "Success", "duration": "1m 0s", "url": "https://dev.controlplane.com" },
+            { "name": "Promote to UAT", "status": "Manual Action" }
+        ]
+    },
+    {
+        "id": "pl_2", "commitSha": "e4f5g6h", "commitMessage": "FIX: Correct invoice calculation error", "author": "Rohan Verma", "branch": "hotfix/invoice-bug", "status": "Failed", "totalDuration": "2m 10s", "triggeredAt": "2023-10-25T08:00:00Z",
+        "stages": [
+            { "name": "Code Commit", "status": "Success", "details": "e4f5g6h by Rohan Verma" },
+            { "name": "Image Build", "status": "Success", "duration": "1m 25s", "details": "Image tag: v1.2.2-e4f5g6h" },
+            { "name": "Automated Tests", "status": "Failed", "duration": "0m 45s", "details": "8 tests failed" },
+            { "name": "Deploy to Dev", "status": "Pending" },
+            { "name": "Promote to UAT", "status": "Pending" }
+        ]
+    }
+]

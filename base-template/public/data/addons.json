@@ -1,0 +1,30 @@
+[
+    {
+        "id": "addon-proctor",
+        "name": "ProctorGuard AI",
+        "provider": "ProctorGuard Inc.",
+        "logo": "https://placehold.co/100x100/4f46e5/white?text=PG",
+        "shortDescription": "AI-powered, GDPR-compliant exam proctoring.",
+        "longDescription": "ProctorGuard AI offers a seamless and secure proctoring experience.",
+        "categories": ["Proctoring", "Security", "AI Tools"],
+        "pricing": { "model": "flat-fee", "amount": 500, "unit": "month" },
+        "requirements": { "plans": ["Enterprise"] },
+        "gallery": ["https://placehold.co/600x400/cccccc/222222?text=Screenshot+1"],
+        "docsUrl": "#",
+        "supportUrl": "#"
+    },
+    {
+        "id": "addon-analytics",
+        "name": "Insightify Analytics",
+        "provider": "DataWeave Corp.",
+        "logo": "https://placehold.co/100x100/10b981/white?text=IA",
+        "shortDescription": "Advanced analytics and reporting for student engagement.",
+        "longDescription": "Unlock deep insights into student performance.",
+        "categories": ["Analytics", "Reporting"],
+        "pricing": { "model": "per-user", "amount": 2, "unit": "user/month" },
+        "requirements": { "plans": ["Pro", "Enterprise"] },
+        "gallery": ["https://placehold.co/600x400/cccccc/222222?text=Dashboard+View"],
+        "docsUrl": "#",
+        "supportUrl": "#"
+    }
+]
